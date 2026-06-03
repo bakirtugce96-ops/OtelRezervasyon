@@ -95,11 +95,19 @@ namespace otelRezervasyon1
                 if (onay == DialogResult.Yes)
                 {
                     int id = Convert.ToInt32(dataGridView1.CurrentRow.Cells["Guest_Id"].Value);
-                    Table_Guest g = db.Table_Guest.Find(id);
-                    db.Table_Guest.Remove(g);
-                    db.SaveChanges();
+                    using (var db2 = new otelRezervasyon1Context())
+                    {
+                        
+                        var rezervasyonlar = db2.Table_Reservation
+                            .Where(r => r.Guest_Id == id).ToList();
+                        db2.Table_Reservation.RemoveRange(rezervasyonlar);
+
+                        
+                        Table_Guest g = db2.Table_Guest.Find(id);
+                        db2.Table_Guest.Remove(g);
+                        db2.SaveChanges();
+                    }
                     btn_listele.PerformClick();
-                    Temizle();
                 }
             }
         }

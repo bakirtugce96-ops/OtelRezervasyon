@@ -38,7 +38,7 @@
             // rd_1
             // 
             this.rd_1.AutoSize = true;
-            this.rd_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(62)))));
+            this.rd_1.BackColor = System.Drawing.Color.DodgerBlue;
             this.rd_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rd_1.ForeColor = System.Drawing.Color.White;
             this.rd_1.Location = new System.Drawing.Point(202, 50);
@@ -53,7 +53,7 @@
             // rd_2
             // 
             this.rd_2.AutoSize = true;
-            this.rd_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(62)))));
+            this.rd_2.BackColor = System.Drawing.Color.DodgerBlue;
             this.rd_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rd_2.ForeColor = System.Drawing.Color.White;
             this.rd_2.Location = new System.Drawing.Point(202, 250);
@@ -67,9 +67,9 @@
             // 
             // lbl_sonuc1
             // 
-            this.lbl_sonuc1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(147)))), ((int)(((byte)(174)))));
+            this.lbl_sonuc1.BackColor = System.Drawing.Color.White;
             this.lbl_sonuc1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbl_sonuc1.ForeColor = System.Drawing.Color.Green;
+            this.lbl_sonuc1.ForeColor = System.Drawing.Color.Blue;
             this.lbl_sonuc1.Location = new System.Drawing.Point(199, 99);
             this.lbl_sonuc1.Name = "lbl_sonuc1";
             this.lbl_sonuc1.Size = new System.Drawing.Size(378, 82);
@@ -78,9 +78,9 @@
             // 
             // lbl_sonuc2
             // 
-            this.lbl_sonuc2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(147)))), ((int)(((byte)(174)))));
+            this.lbl_sonuc2.BackColor = System.Drawing.Color.White;
             this.lbl_sonuc2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbl_sonuc2.ForeColor = System.Drawing.Color.Green;
+            this.lbl_sonuc2.ForeColor = System.Drawing.Color.Blue;
             this.lbl_sonuc2.Location = new System.Drawing.Point(197, 304);
             this.lbl_sonuc2.Name = "lbl_sonuc2";
             this.lbl_sonuc2.Size = new System.Drawing.Size(378, 93);
@@ -89,8 +89,9 @@
             // 
             // btn_geri
             // 
-            this.btn_geri.BackColor = System.Drawing.Color.Gray;
+            this.btn_geri.BackColor = System.Drawing.Color.SkyBlue;
             this.btn_geri.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_geri.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_geri.Location = new System.Drawing.Point(681, 379);
             this.btn_geri.Name = "btn_geri";
             this.btn_geri.Size = new System.Drawing.Size(96, 50);
@@ -104,6 +105,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
+            this.BackgroundImage = global::otelRezervasyon1.Properties.Resources.pngtree_supervisor_managing_financial_documents_and_reviewing_marketing_reports_photo_image_30286996;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btn_geri);
             this.Controls.Add(this.lbl_sonuc2);

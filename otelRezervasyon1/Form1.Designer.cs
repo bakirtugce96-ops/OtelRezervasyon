@@ -29,37 +29,37 @@
         private void InitializeComponent()
         {
             this.pnl_misafirler = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_gitMisafirler = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pnl_odalar = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btn_gitOdalar = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.pnl_rezervasyonlar = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btn_gitRezervasyonlar = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pnl_raporlar = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.btn_gitRaporlar = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.pnl_AnaMenu = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pnl_misafirler.SuspendLayout();
-            this.pnl_odalar.SuspendLayout();
-            this.pnl_rezervasyonlar.SuspendLayout();
-            this.pnl_raporlar.SuspendLayout();
-            this.pnl_AnaMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.pnl_odalar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pnl_rezervasyonlar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.pnl_raporlar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.pnl_AnaMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnl_misafirler
@@ -78,9 +78,20 @@
             this.pnl_misafirler.TabIndex = 0;
             this.pnl_misafirler.Visible = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Image = global::otelRezervasyon1.Properties.Resources.WhatsApp_Image_2026_05_26_at_23_17_45;
+            this.pictureBox1.Location = new System.Drawing.Point(28, 10);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(62, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
             // btn_gitMisafirler
             // 
-            this.btn_gitMisafirler.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(158)))), ((int)(((byte)(117)))));
+            this.btn_gitMisafirler.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn_gitMisafirler.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_gitMisafirler.ForeColor = System.Drawing.Color.Black;
             this.btn_gitMisafirler.Location = new System.Drawing.Point(154, 138);
@@ -140,9 +151,19 @@
             this.pnl_odalar.TabIndex = 1;
             this.pnl_odalar.Visible = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::otelRezervasyon1.Properties.Resources.WhatsApp_Image_2026_05_26_at_23_17_45__1_;
+            this.pictureBox2.Location = new System.Drawing.Point(33, 10);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(67, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            // 
             // btn_gitOdalar
             // 
-            this.btn_gitOdalar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(95)))), ((int)(((byte)(165)))));
+            this.btn_gitOdalar.BackColor = System.Drawing.Color.Blue;
             this.btn_gitOdalar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_gitOdalar.Location = new System.Drawing.Point(153, 138);
             this.btn_gitOdalar.Name = "btn_gitOdalar";
@@ -177,9 +198,19 @@
             this.pnl_rezervasyonlar.TabIndex = 0;
             this.pnl_rezervasyonlar.Visible = false;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::otelRezervasyon1.Properties.Resources.WhatsApp_Image_2026_05_26_at_23_17_45__3_;
+            this.pictureBox3.Location = new System.Drawing.Point(18, 10);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(67, 50);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
+            // 
             // btn_gitRezervasyonlar
             // 
-            this.btn_gitRezervasyonlar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(56)))), ((int)(((byte)(6)))));
+            this.btn_gitRezervasyonlar.BackColor = System.Drawing.Color.Maroon;
             this.btn_gitRezervasyonlar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_gitRezervasyonlar.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.btn_gitRezervasyonlar.Location = new System.Drawing.Point(183, 138);
@@ -238,6 +269,17 @@
             this.pnl_raporlar.TabIndex = 2;
             this.pnl_raporlar.Visible = false;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::otelRezervasyon1.Properties.Resources.WhatsApp_Image_2026_05_26_at_23_17_45__2_;
+            this.pictureBox4.Location = new System.Drawing.Point(18, 16);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(61, 50);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 12;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
             // btn_gitRaporlar
             // 
             this.btn_gitRaporlar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(52)))), ((int)(((byte)(137)))));
@@ -294,51 +336,9 @@
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(29, 52);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(260, 38);
+            this.label9.Size = new System.Drawing.Size(835, 38);
             this.label9.TabIndex = 12;
-            this.label9.Text = "HOŞ GELDİNİZ";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Image = global::otelRezervasyon1.Properties.Resources.WhatsApp_Image_2026_05_26_at_23_17_45;
-            this.pictureBox1.Location = new System.Drawing.Point(28, 10);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(62, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::otelRezervasyon1.Properties.Resources.WhatsApp_Image_2026_05_26_at_23_17_45__2_;
-            this.pictureBox4.Location = new System.Drawing.Point(18, 16);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(61, 50);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 12;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::otelRezervasyon1.Properties.Resources.WhatsApp_Image_2026_05_26_at_23_17_45__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(33, 10);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(67, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 10;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::otelRezervasyon1.Properties.Resources.WhatsApp_Image_2026_05_26_at_23_17_45__3_;
-            this.pictureBox3.Location = new System.Drawing.Point(18, 10);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(67, 50);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 11;
-            this.pictureBox3.TabStop = false;
+            this.label9.Text = " OTEL REZERVASYON SİSTEMİNE HOŞ GELDİNİZ";
             // 
             // Form1
             // 
@@ -353,18 +353,18 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.pnl_misafirler.ResumeLayout(false);
             this.pnl_misafirler.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnl_odalar.ResumeLayout(false);
             this.pnl_odalar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pnl_rezervasyonlar.ResumeLayout(false);
             this.pnl_rezervasyonlar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.pnl_raporlar.ResumeLayout(false);
             this.pnl_raporlar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.pnl_AnaMenu.ResumeLayout(false);
             this.pnl_AnaMenu.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }

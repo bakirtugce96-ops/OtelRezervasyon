@@ -38,12 +38,36 @@ namespace otelRezervasyon1
 
         private void btn_ekle_Click(object sender, EventArgs e)
         {
+            int seciliOdaId = (int)combo_oda.SelectedValue;
+            DateTime giris = dtp_giris.Value.Date;
+            DateTime cikis = dtp_cikis.Value.Date;
+
+           
+            if (giris >= cikis)
+            {
+                MessageBox.Show("Çıkış tarihi giriş tarihinden sonra olmalıdır!");
+                return;
+            }
+
+            
+            bool cakismaVar = db.Table_Reservation.Any(r =>
+                r.Room_Id == seciliOdaId &&
+                r.CheckIn_Date < cikis &&
+                r.CheckOut_Date > giris
+            );
+
+            if (cakismaVar)
+            {
+                MessageBox.Show("Bu oda seçilen tarihlerde doludur! Lütfen farklı bir tarih veya oda seçiniz.");
+                return;
+            }
+
             var res = new Table_Reservation
             {
                 Guest_Id = (int)combo_misafir.SelectedValue,
-                Room_Id = (int)combo_oda.SelectedValue,
-                CheckIn_Date = dtp_giris.Value,
-                CheckOut_Date = dtp_cikis.Value
+                Room_Id = seciliOdaId,
+                CheckIn_Date = giris,
+                CheckOut_Date = cikis
             };
             db.Table_Reservation.Add(res);
             db.SaveChanges();
@@ -70,6 +94,11 @@ namespace otelRezervasyon1
         private void btn_geri_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

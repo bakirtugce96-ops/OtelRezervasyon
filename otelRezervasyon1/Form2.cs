@@ -121,5 +121,10 @@ namespace otelRezervasyon1
             txt_telefon.Text = "";
             txt_email.Text = "";
         }
+
+        private void txt_telefon_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
